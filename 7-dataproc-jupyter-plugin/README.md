@@ -227,6 +227,12 @@ gcloud config set project YOUR_PROJECT_NAME
 1. Install JupyterLab
 
 ```
+# use a virtual environment so that you can isolate the python environment changes.
+python3 -m venv <your-env>  e.g.: python3 -m venv my-jupyter-env
+
+#active the environment
+./my-jupyter-env/bin/activate
+
 # Command to install JupyterLab in your local python environment. You could skip this step if you have already installed JupyterLab.
 pip3 install jupyterlab
 
